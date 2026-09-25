@@ -12,7 +12,7 @@ We hope this dataset serves as a useful benchmark for advancing robust perceptio
 The dataset contains 2,028 RGB images collected across 16 scenarios, comprising a total of 7,673 annotated robot instances. It features four homogeneous TurtleBot2 robots as the detection and identification targets, with each robot assigned a unique identity and treated as a separate detection class. Every robot instance is annotated with a bounding box and synchronized with its corresponding UWB measurement, including the ranging and ID information. Since UWB provides only scalar ranging measurements, associating UWB sensor with camera does not require complex 3D camera–UWB spatial alignment or precise extrinsic calibration.
 
 
-![Data collection platform + Robot objects + several scenes](assets/platform-scenes.png)
+![Data collection platform + Robot objects + several scenes](asset/platform-scenes.png)
 
 
 ## 🏷️ Label Format
