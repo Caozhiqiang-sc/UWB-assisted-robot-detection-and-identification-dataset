@@ -36,13 +36,13 @@ Example:
 dataset/
 ├── train/
 │     ├── images/     # RGB images
-│     └── labels/     # one .txt per image (YOLO + UWB measurements)
+│     └── labels/     # one .txt per image (Class + Bounding box + UWB measurements)
 ├── valid/
 |     ├── images/     # RGB images
-|     └── labels/     # one .txt per image (YOLO + UWB measurements)
+|     └── labels/     # one .txt per image (Class + Bounding box + UWB measurements)
 ├── test/
       ├── images/     # RGB images
-      └── labels/     # one .txt per image (YOLO + UWB measurements)
+      └── labels/     # one .txt per image (Class + Bounding box + UWB measurements)
 ```
 
 ## 🚧 Status
